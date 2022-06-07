@@ -1,0 +1,35 @@
+.accordion-collapse.collapse.show {
+    display: block;
+}
+
+.accordion-collapse.collapse {
+    display: none;
+}
+
+.accordion-button {
+    padding: 16px 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border: none;
+    background-color: white;
+}
+
+.accordion-button img {
+    width: 20px;
+    height: 20px;
+}
+
+.accordion-button img.active {
+    transform: rotate(180deg);
+}
+
+.accordion-body {
+    padding: 16px 20px;
+
+}
+
+.accordion {
+    border: 1px solid #AAA;
+    border-radius: 20px;
+}

@@ -1,0 +1,21 @@
+.aler.active{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    height: 40px;
+    box-sizing: border-box;
+    background: #ee9ca7;
+    background: -webkit-linear-gradient(to right, #ee9ca7, #ffdde1); 
+    background: linear-gradient(to right, #ee9ca7, #ffdde1); 
+    margin-bottom: 10px;
+}
+
+.aler{
+    display: none;
+}
+
+.close{
+    width: 20px;
+    height: 20px;
+}
