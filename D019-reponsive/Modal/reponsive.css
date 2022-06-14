@@ -1,0 +1,23 @@
+@media  screen and (max-width: 800px) {
+    .list {
+        width: 80%;
+        padding: 48px 0;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+  }
+  @media  screen and (max-width: 573px) {
+    .list {
+        width: 80%;
+        padding: 48px 0;
+        display: grid;
+        grid-template-columns: auto;
+    }.containerHeader{
+        width: 100%;
+        padding: 0 12px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    }
+  }
+  
